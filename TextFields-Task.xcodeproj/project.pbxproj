@@ -56,15 +56,47 @@
 		D26B723B25EEA32000B517EB /* TextFields-Task */ = {
 			isa = PBXGroup;
 			children = (
-				D26B723C25EEA32000B517EB /* AppDelegate.swift */,
-				D26B723E25EEA32000B517EB /* SceneDelegate.swift */,
-				D26B724025EEA32000B517EB /* ViewController.swift */,
-				D26B724225EEA32000B517EB /* Main.storyboard */,
-				D26B724525EEA32300B517EB /* Assets.xcassets */,
-				D26B724725EEA32300B517EB /* LaunchScreen.storyboard */,
+				D26B725125EEA8DA00B517EB /* Application */,
+				D26B725425EEA91100B517EB /* Controller */,
+				D26B725625EEA91900B517EB /* View */,
+				D26B725325EEA8FE00B517EB /* Supporting Files */,
 				D26B724A25EEA32300B517EB /* Info.plist */,
 			);
 			path = "TextFields-Task";
+			sourceTree = "<group>";
+		};
+		D26B725125EEA8DA00B517EB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D26B723C25EEA32000B517EB /* AppDelegate.swift */,
+				D26B723E25EEA32000B517EB /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D26B725325EEA8FE00B517EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D26B724525EEA32300B517EB /* Assets.xcassets */,
+				D26B724725EEA32300B517EB /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D26B725425EEA91100B517EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D26B724025EEA32000B517EB /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D26B725625EEA91900B517EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D26B724225EEA32000B517EB /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
