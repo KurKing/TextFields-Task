@@ -31,12 +31,9 @@ class TextFieldTableViewCell: UITableViewCell {
         
         textField.placeholder = model.placeholder
         textField.isSecureTextEntry = model.isSecure
-        textField.keyboardType = model.keyboardType ?? .default
         
         textField.tag = model.tag
     }
-    
-    
     
 }
 

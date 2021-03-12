@@ -25,7 +25,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="SqD-1l-dQy"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" systemColor="systemBlueColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -35,24 +35,15 @@
                                     <constraint firstAttribute="height" constant="20" id="7LM-IH-Bdl"/>
                                 </constraints>
                                 <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
                             </textField>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pwr-mG-N6m">
-                                <rect key="frame" x="5" y="28" width="360" height="1"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1" id="htO-qA-lB9"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="pwr-mG-N6m" secondAttribute="trailing" constant="5" id="6dC-XY-C28"/>
-                            <constraint firstItem="pwr-mG-N6m" firstAttribute="leading" secondItem="3w6-wl-Xto" secondAttribute="leading" constant="5" id="7SE-so-Hvb"/>
+                            <constraint firstAttribute="bottom" secondItem="yyI-Ab-swc" secondAttribute="bottom" constant="10" id="5O8-QV-cG3"/>
                             <constraint firstItem="yyI-Ab-swc" firstAttribute="top" secondItem="3w6-wl-Xto" secondAttribute="top" id="7dx-Da-cyK"/>
                             <constraint firstItem="0Pu-0r-E9n" firstAttribute="leading" secondItem="yyI-Ab-swc" secondAttribute="trailing" constant="20" id="B4A-Qg-CSC"/>
-                            <constraint firstAttribute="bottom" secondItem="pwr-mG-N6m" secondAttribute="bottom" constant="1" id="Exf-bi-r4s"/>
                             <constraint firstAttribute="trailing" secondItem="0Pu-0r-E9n" secondAttribute="trailing" constant="20" symbolic="YES" id="Qil-Nv-d5g"/>
-                            <constraint firstItem="pwr-mG-N6m" firstAttribute="top" secondItem="yyI-Ab-swc" secondAttribute="bottom" constant="8" id="iN4-aH-YBn"/>
                             <constraint firstItem="yyI-Ab-swc" firstAttribute="leading" secondItem="3w6-wl-Xto" secondAttribute="leading" constant="7" id="ljN-Az-PiU"/>
                             <constraint firstItem="0Pu-0r-E9n" firstAttribute="top" secondItem="yyI-Ab-swc" secondAttribute="top" id="nbw-cK-oZ0"/>
                         </constraints>
@@ -70,7 +61,7 @@
                 <outlet property="textField" destination="0Pu-0r-E9n" id="gMV-rs-vs6"/>
                 <outlet property="textFieldNameLabel" destination="yyI-Ab-swc" id="dZS-R2-GgT"/>
             </connections>
-            <point key="canvasLocation" x="49.275362318840585" y="105.13392857142857"/>
+            <point key="canvasLocation" x="-167" y="23"/>
         </tableViewCell>
     </objects>
     <resources>
