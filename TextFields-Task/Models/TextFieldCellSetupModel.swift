@@ -13,4 +13,6 @@ struct TextFieldCellSetupModel {
 
     let isSecure: Bool
     let keyboardType: UIKeyboardType?
+    
+    let tag: Int
 }

@@ -8,35 +8,36 @@
 import UIKit
 
 class TextFieldTableViewCell: UITableViewCell {
-
+    
     @IBOutlet weak var textFieldNameLabel: UILabel!
     @IBOutlet weak var textField: UITextField!
     
-    private(set) var indexPath: IndexPath?
+    var delegate: UITextFieldDelegate? {
+        didSet {
+            textField.delegate = delegate
+        }
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
     
-    func setup(model: TextFieldCellSetupModel, indexPath: IndexPath){
+    func setup(model: TextFieldCellSetupModel){
         textFieldNameLabel.text = model.name
         
         textField.placeholder = model.placeholder
         textField.isSecureTextEntry = model.isSecure
         textField.keyboardType = model.keyboardType ?? .default
         
-        textField.delegate = self
-        
-        self.indexPath = indexPath
+        textField.tag = model.tag
     }
+    
+    
     
 }
 
-//MARK: - UITextFieldDelegate
-extension TextFieldTableViewCell: UITextFieldDelegate {
-    
-}
+
