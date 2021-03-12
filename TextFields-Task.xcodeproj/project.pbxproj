@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D26B65E425FBF9D70069D160 /* TextFieldCellSetupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B65E325FBF9D60069D160 /* TextFieldCellSetupModel.swift */; };
 		D26B723D25EEA32000B517EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B723C25EEA32000B517EB /* AppDelegate.swift */; };
 		D26B723F25EEA32000B517EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B723E25EEA32000B517EB /* SceneDelegate.swift */; };
 		D26B724125EEA32000B517EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26B724025EEA32000B517EB /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D26B65E325FBF9D60069D160 /* TextFieldCellSetupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCellSetupModel.swift; sourceTree = "<group>"; };
 		D26B723925EEA32000B517EB /* TextFields-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TextFields-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26B723C25EEA32000B517EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D26B723E25EEA32000B517EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D26B65E225FBF9940069D160 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D26B65E325FBF9D60069D160 /* TextFieldCellSetupModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D26B723025EEA32000B517EB = {
 			isa = PBXGroup;
 			children = (
@@ -65,8 +75,9 @@
 			isa = PBXGroup;
 			children = (
 				D26B725125EEA8DA00B517EB /* Application */,
-				D2FB0BD825FA99D900547420 /* Xibs */,
+				D26B65E225FBF9940069D160 /* Models */,
 				D26B725625EEA91900B517EB /* View */,
+				D2FB0BD825FA99D900547420 /* Xibs */,
 				D26B725425EEA91100B517EB /* Controller */,
 				D2FB0BDA25FAA3AF00547420 /* Extensions */,
 				D2FB0BDF25FAA42D00547420 /* Protocols */,
@@ -207,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D26B724125EEA32000B517EB /* ViewController.swift in Sources */,
+				D26B65E425FBF9D70069D160 /* TextFieldCellSetupModel.swift in Sources */,
 				D2FB0BDC25FAA40600547420 /* UITableViewExtension.swift in Sources */,
 				D26B723D25EEA32000B517EB /* AppDelegate.swift in Sources */,
 				D26B723F25EEA32000B517EB /* SceneDelegate.swift in Sources */,

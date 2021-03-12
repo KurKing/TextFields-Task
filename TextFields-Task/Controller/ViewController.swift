@@ -26,7 +26,11 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return tableView.dequeueReusableCell(type: TextFieldTableViewCell.self)
+        let cell = tableView.dequeueReusableCell(type: TextFieldTableViewCell.self)
+        
+        cell.setup(model: TextFieldCellSetupModel(name: "123", placeholder: "Text", isSecure: true, keyboardType: .decimalPad), indexPath: indexPath)
+        
+        return cell
     }
 
 }
